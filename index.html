@@ -1,1 +1,217 @@
-Hello world
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
+    <meta name="format-detection" content="telephone=no" />
+           
+        <link rel="shortcut icon" href="header/mars_logo2c.png"/> 
+            <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+            <link href="css/font.css" rel="stylesheet" /> 
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
+            <link href="css/animsition.min.css" rel="stylesheet"/>
+			<link href="css/simpletextrotator.css" rel="stylesheet"/>
+	        <link href="css/magnific-popup.css" rel="stylesheet"/>         
+            <link href="css/style.css" rel="stylesheet" type="text/css"/>     
+      <title>MARS</title>
+  </head>
+<body class="animsition">
+	<header>
+	  <div class="logo">
+		 <a href="index.html"></a>
+	  </div>
+	  <div class="nav-menu-icon">
+		<a href="#"><i></i></a>
+	  </div> 
+	  <nav class="menu">
+		<ul>
+			<li class="active"><a href="index.html">home<span class="fa"></span></a></li>
+			<li><a href="https://github.com/cristinasegalin/MARS/">Git-hub<span class="fa"></span></a></li>
+			<li><a href="dataset.html">dataset<span class="fa fa-angle-down"></span></a>
+				<ul class="dropmenu">
+				   <li><a href="dataset.html#description" class="animsition-link">description</a></li>
+				   <li><a href="dataset.html#download" class="animsition-link">download</a></li>
+				</ul>
+			</li>
+			<li><a href="documentation.html">documentation<span class="fa"></span></a></li>
+			<!-- <li><a href="https://groups.google.com/forum/#!forum/caltech-mars">Google Group<span class="fa"></span></a></li>			 -->
+			<li><a href="team.html">team<span class="fa"></span></a></li>
+			<!-- <li><a href="acknowledge.html">acknowledge<span class="fa"></span></a></li> -->
+		</ul>
+	  </nav>  
+	</header>
+		
+	<div class="row">
+		<div class="col-md-12">
+			<figure class="figure">
+				<a><img src="header/bg_mars2.png" alt="" style="width:100%;height:100%"></a>
+			</figure>
+		</div>
+	</div>
+	
+   
+   <div class="container">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="about-item">
+					<p style="text-align:justify;font-size:16px">The Mouse Action Recognition System, is a deep learning based system that enables 
+					researchers to automatically track the pose of black and a white mouse form different camera views, computes
+					interpretable features and describes the behavior of socially interactive mice for useful behavior analysis.
+					Our system combines an user friendly graphical user interface with fast and powerful
+					computer vision and machine learning algorithms.
+					</br></br>
+					The proposed software automatically computes interpretable representation of mouse pose and quantitative measures of social
+					behavior up to two mice from untrimmed videos using computer vision and machine learning techniques. MARS automatically tracks 
+					and accurately annotates social behavior of multiple mice, allowing to progress towards understanding mechanisms underlying
+					social interactions and their disorders such as autism and PTSD.
+					</br></br>
+					This system is tested on an unprecedented dataset of videos of interacting pairs of mice, which was collected as
+					part of state-of-the-art neurophysiological study of behavior. The dataset comprises over 28 hours (3 million frames)
+					of annotated videos recorded at high-resolution. We find that our novel representation of the parts based pose and 
+					trajectory features, used in a discriminative framework,  are more informative that blob based pose. Our approach 
+					reaches a mean average recognition rate of 93%.
+
+					</br></br>
+					MARS is an open-source sofware developed by members of the <a href="http://www.vision.caltech.edu/" style="text-decoration:underline">Computational Vision Lab</a>
+					in collaboration with <a href="http://davidandersonlab.caltech.edu/" style="text-decoration:underline">David Anderson Lab</a> at Caltech.
+					</br></br>
+					<div class="det-tags">
+						  <div class="tags-button">
+							<a href="#">machine learning</a>
+							<a href="#">computer vision</a>
+							<a href="#">detection</a>
+							<a href="#">pose estimation</a>
+							<a href="#">tracking</a>
+							<a href="#">feature extraction</a>
+							<a href="#">action recognition</a>
+							
+						  </div>
+					  </div>
+					</p>        		    
+					</br></br>
+				</div>	  
+			</div>
+		</div>
+		
+	
+	
+		<div class="row">
+			<div class="col-md-12">
+				<div class="subtitle">
+					<h3>SAMPLE RESULTS</h3>
+					  
+					<p style="text-align:center;font-size:16px">
+					<b>Detection and pose of each mouse, maintaining the identity across the video frames.</b></br>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/YZgzv4td7Yw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</br>
+					
+					<p style="text-align:center;font-size:16px">
+					<b>Mouse tracker and behvior classifier.</b></br>
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/YZgzv4td7Yw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+					</br>
+					
+					
+					
+					</p>
+				</div>
+			</div>
+		</div>
+		
+			<div class="row">
+			<div class="col-md-12">
+				<div class="subtitle">
+					<h3>CITATION/ REFERENCE</h3>
+					  <p style="text-align:justify;font-size:16px">
+						<b>If you make use of MARS or CRIMSI, please cite the following reference in any publications:</b></br>
+						MARS: An automated system for measuring the pose and actions of laboratory mice during social behavior.</br>
+						Cristina Segalin, Ann Kennedy, Jalani Williams, Tomomi Karigo, David Anderson, Pietro Perona.</br>
+						 <a href=""> pdf  </a> | <a href= "" > bibtex </a>
+					  </p>
+				</div>
+			</div>
+		</div>	
+		
+		<div class="row">
+			<div class="col-md-12">
+				<div class="subtitle">
+					<h3>CODE and Dataset</h3>
+					  <p style="text-align:justify;font-size:16px">
+					  Code can be found on the <a href="https://github.com/cristinasegalin/MARS/" style="text-decoration:underline"> github </a> repository.  
+					  Find more on the <a href="userguide.html" style="text-decoration:underline"> <b>Userguide</b></a> page.</br> 
+					  <div style="margin-left:30px;margin-top:-20px; font-size:16px">
+					  &mdash; To use MARS use the <i>gui</i> folder. Download the models used for tracking and classify actions: 
+					  <a href="git_data/gui/v1_7.zip" style="text-decoration:underline"> Models</a></br>
+					  &mdash; To develop your own mice tracker, use the <i>develop</i> folder. 
+					  Pretrained model for the mice detector:<a href="git_data/develop/inception_resnet_v2_2016_08_30.ckpt" style="text-decoration:underline">Inception_resent_v2_2016_08_30.ckpt </a></br>
+					  </div>
+					  </p>
+					  <p style="text-align:justify;font-size:16px">
+					  Utility sofware for annotating behaviors on videos, reading .seq files: <a href="utils/CSVR.zip" style="text-decoration:underline">MARS_utils.zip</a></br> </br>
+					  Data used for developing MARS and details can be found on the <a href="dataset.html" style="text-decoration:underline"> <b>Dataset</b> </a> page.
+					  </p>
+				</div>
+			</div>
+		</div>
+		
+		<div class="row">
+			<div class="col-md-12">
+				<div class="subtitle">
+					<h3>CHANGE LOG</h3>
+					  <p style="text-align:justify;font-size:16px">
+						<ul class="image-list">
+							<li><span  class="fa fa-square-o"></span> 07/19/2018 Inital version of the website </li>
+						</ul>
+					  </p>
+				</div>
+			</div>
+		</div>
+		
+		</br></br>
+		
+		<div class="row">
+			<div class="col-md-12">
+				<div class="subtitle">
+					<h3>CONTACT</h3>
+					  <p style="text-align:justify;font-size:16px">
+					  For question about the software and the dataset please contact <a href="www.cristinasegalin.com" style="text-decoration:underline"> Cristina Segalin</a> [segalin.cristina[at]gmail.com].</br>
+					  For issued realted to code, please use the <a href="https://github.com/cristinasegalin/MARS/issues" style="text-decoration:underline"> git-hub </a>issue page.
+					  </p>
+				</div>
+			</div>
+		</div>
+		
+		
+		<div class="row">
+			<div class="col-md-12">
+				<div class="subtitle">
+					<h3>ACKNOWLWDGE</h3>
+					  <p style="text-align:justify;font-size:16px">
+					  We gratefully acknowledge Robert Robertson, Tomomi Karigo, who spent many long hours 
+					  annotating MARS videos. </br>We also acknowledge Grant Van Horn for helping in starting the development
+					  of the software and advices along the way.
+					  <!-- grant  -->
+					  </p>
+				</div>
+			</div>
+		</div>
+		
+    </div>    
+	        
+	<footer>
+		<div class="copyright">
+			Last update May 2020
+		</div>	
+	</footer>
+    
+<script src="js/jquery-2.1.4.min.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/isotope.pkgd.min.js"></script>
+<script src="js/jquery.countTo.js"></script>
+<script src="js/jquery.animsition.min.js"></script>
+<script src="js/jquery.magnific-popup.min.js"></script>
+<script src="js/idangerous.swiper.min.js"></script>
+<script src="js/all.js"></script>
+</body>
+</html>	
