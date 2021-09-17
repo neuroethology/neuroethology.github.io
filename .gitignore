@@ -2,3 +2,4 @@ example_pages/*
 illustratorimages/*
 mars_website_design/*
 *.DS_Store
+*.vs*
