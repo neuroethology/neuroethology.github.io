@@ -18,31 +18,35 @@
       <title>MARS - DATASET</title>
   </head>
 <body class="animsition">
-	<header>
-	  <div class="logo">
-		 <a href="index.html"></a>
-	  </div>
-	  <div class="nav-menu-icon">
-		<a href="#"><i></i></a>
-	  </div>
-	  <nav class="menu">
-		<ul>
-			<li class="active"><a href="index.html">home<span class="fa"></span></a></li>
-			<li><a href="https://github.com/neuroethology">Git-hub<span class="fa fa-angle-down"></span></a>
-			<ul class="dropmenu">
-				   <li><a href="https://github.com/neuroethology/" class="animsition-link">code</a></li>
-				   <li><a href="https://github.com/neuroethology" class="animsition-link">userguide</a></li>
-				</ul>
-			</li>
-			<li><a href="dataset.html">datasets<span class="fa fa-angle-down"></span></a>
-				<ul class="dropmenu">
-				   <li><a href="dataset.html#description" class="animsition-link">description</a></li>
-				   <li><a href="dataset.html#download" class="animsition-link">download</a></li>
-				</ul>
-			</li>
-		</ul>
-	  </nav>
-	</header>
+  <header>
+    <div class="logo">
+     <a href="index.html"></a>
+    </div>
+    <div class="nav-menu-icon">
+    <a href="#"><i></i></a>
+    </div>
+    <nav class="menu">
+    <ul>
+      <li class="active"><a href="index.html">home<span class="fa"></span></a></li>
+      <li><a href="https://github.com/neuroethology">GitHub<span class="fa fa-angle-down"></span></a>
+      <ul class="dropmenu">
+           <li><a href="https://github.com/neuroethology/MARS" class="animsition-link">MARS</a></li>
+           <li><a href="https://github.com/neuroethology/MARS_Developer" class="animsition-link">MARS_Developer</a></li>
+           <li><a href="https://github.com/neuroethology/bentoMAT" class="animsition-link">Bento</a></li>
+        </ul>
+      </li>
+      <li><a href="dataset.html">datasets<span class="fa fa-angle-down"></span></a>
+        <ul class="dropmenu">
+          <li><a href="datasets.html" class="animsition-link">About the datasets</a></li>
+           <li><a href="https://data.caltech.edu/records/2011" class="animsition-link">Download pose annotations</a></li>
+           <li><a href="https://data.caltech.edu/records/2012" class="animsition-link">Download behavior annotations</a></li>
+           <li><a href="https://data.caltech.edu/records/2121" class="animsition-link">Download inter-annotator variability</a></li>
+        </ul>
+      </li>
+      <li><a href="team.html">team<span class="fa"></span></a></li>
+    </ul>
+    </nav>
+  </header>
 
 	<div class="container">
 		<div class="padd-80">
@@ -70,65 +74,34 @@
 					  and <em><b>keypoint locations</em></b>), and 270 <em><b>time-varying trajectory features</em></b> computed from the poses of the mice.
 					  Further we share the selected <em><b>15Kx2 frames and AMT annotations (~5M clicks)</em></b> used to train the tracker.
 					  </p>
-					  </br></br></br>
-					  <h3><a name="description">Full description</a></h3>
-					  </br></br>
-					  <p style="text-align:justify;font-size:16px">
-					  The MARS beh is composed by 108x2 videos, each between two and ten minutes in duration, recorded at 30fps with a resolution of 1024x570 for top view and 1280x500 for side view, 8-bit pixel depth, monochrome. Each scene was
-					  recoded from both top- and side views, using two synchronized cameras.
-					  </br></br>
-					  <p style="text-align:center;font-size:16px">
-					  <a><img src="dataset/behs.png" alt="" style="width:80%;height:auto;" class="center"></a>
-					  </p>
-					  </br></br></br>
-					  <!-- <h6 class="one"><span><a name="descrription">Part Keypoint Annotations</a></span></h6> -->
-
 
 					  </br></br></br>
-					  <h3><a name="download">Download</a> </h3>
-					  Under construction, check back soon!
 
-
-					  <h6 class="hrline"><span>Part Keypoint Annotations</span></h6>
+					  <h6 class="hrline"><span>Pose Annotations</span></h6>
+            <br><br>
+            <ul>
+              <li><span  class="fa fa-square-o"></span> <b><a href=https://data.caltech.edu/records/2011>Download the MARS pose dataset here!</a></b></li>
+            </ul>
+            <br></br><br>
 					  <p style="text-align:justify;font-size:16px">
-					  </br>
-					  Top and front frames used for training the mouse and pose detector, together with part keypoints and bounding boxes annotations
-					  used for groundtruth. </br>
-					   &mdash; Top:</br>
-					   &emsp;&emsp;&mdash; <a href="git_data/develop/top/selected_frames_10k_top.zip" style="text-decoration:underline"> selected_frames_10k_top.zip</a>: 10K frames no cable</br>
-					   &emsp;&emsp;&mdash; <a href="git_data/develop/top/selected_frames_miniscope.zip" style="text-decoration:underline"> selected_frames_miniscope.zip</a>: 5k frames with cable </br>
-					   &emsp;&emsp;&mdash; <a href="git_data/develop/top/annotations_top.zip" style="text-decoration:underline"> annotations_top.zip</a>: Raw part keypoints annotation form AMT. </br>
-					   &mdash; Front:</br>
-					   &emsp;&emsp;&mdash; <a href="git_data/develop/front/selected_frames_10k_front.zip" style="text-decoration:underline"> selected_frames_10k_front.zip</a>: 10K frames no cable</br>
-					   &emsp;&emsp;&mdash; <a href="git_data/develop/front/selected_frames_miniscope_front.zip" style="text-decoration:underline"> selected_frames_miniscope_front.zip</a>: 5k frames with cable </br>
-					   &emsp;&emsp;&mdash; <a href="git_data/develop/front/annotations_front.zip" style="text-decoration:underline"> annotation_front.zip</a>: Raw part keypoints annotation form AMT. </br>
-
-
-
+            Included in this dataset are 15,000 pairs of top- and front-view frames from videos of pairs of interacting mice. Each frame has been manually annotated by five individuals for a total of nine (top-view) or thirteen (front-view) keypoints: the nose, ears, base of neck, hips, base of tail, middle of tail, and end of tail, and additionally the four paws (front-view only.)
+            <br><br>
+            Frames are sampled from 64 videos from several years of experimental projects. 5,000 of the extracted frames include resident mice with a head-attached fiberoptic cable or head-mounted microendoscope with cable, which introduces an additional source of occlusion.
+            <br><br>
+            Note that the middle and end of tail keypoints were quite noisy, therefore these parts were omitted during training of the original MARS models.
 					  </p>
 					  </br>
-					  <h6 class="hrline"><span>Videos, BBoxes, Pose, Fetures, action annotation</span></h6>
-					  </br>
+					  <h6 class="hrline"><span>Behavior annotations</span></h6>
+          </br><br>
+          <ul>
+            <li><span  class="fa fa-square-o"></span> <b><a href=https://data.caltech.edu/records/2012>Download the MARS behavior dataset here!</a></b></li>
+          </ul>
+          <br></br><br>
 					  <p style="text-align:justify;font-size:16px">
-					  Videos for top and front view, behavior annotations, part keypoints annotations, bounding boxes and extracted features can be found in each folder.</br>
-					  Videos are organized as having no cable on top of the resident head or having a fiber optic or miniscope attached to the resident head.</br>
-					  &mdash; Train Videos:
-					  <a href="data/train_nocable1.zip" style="text-decoration:underline"> train_nocable1.zip</a>
-					  <a href="data/train_nocable2.zip" style="text-decoration:underline"> train_nocable2.zip</a>
-					  <a href="data/train_nocable3.zip" style="text-decoration:underline"> train_nocable3.zip</a>
-					  <a href="data/train_nocable4.zip" style="text-decoration:underline"> train_nocable4.zip</a> </br>
-					  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-					  <a href="data/train_cable1.zip" style="text-decoration:underline"> train_cable1.zip</a>
-					  <a href="data/train_cable2.zip" style="text-decoration:underline"> train_cable2.zip</a>
-					  <a href="data/train_cable3.zip" style="text-decoration:underline"> train_cable3.zip</a> </br>
-					  &mdash; Test Videos:
-					  <a href="data/test_nocable.zip" style="text-decoration:underline"> test_nocable.zip</a>
-					  <a href="data/test_cable.zip" style="text-decoration:underline"> test_cable.zip</a></br>
-					  &mdash; Validation Videos:
-					  <a href="data/validation.zip" style="text-decoration:underline"> validation.zip</a>
-					  </p>
-					</br>
-					  <p style="text-align:justify;font-size:16px">
+					  Included in this dataset are approximately 14 hours of top-view video of pairs of interacting mice, accompanied by MARS pose estimator output (keypoint locations, bounding boxes, and derived features) and manual frame-by-frame annotations. This data was used to train the attack, mount, and close investigation classifiers in end-user version of MARS.
+            <br><br>
+            The videos are split into train, validation, test-1, and test-2 sets, which reflect the train/test splits used in the MARS paper.
+            <br><br>
 					  Each video folder contains top and front videos in .seq and .avi format, behavior annotations and an output_v# folder.
 					  Some videos contain two versions of behavior annotations: one where only aggression, investigation and mounting are annotated, where
 					  the other provides in total 9 behaviors. </br>
@@ -138,12 +111,22 @@
 					  Pose files (.json) contains:</br>
 					  &mdash; bounding boxes [2 x num_frames x 4] </br>
 					  &mdash; pose [2 x num_frames x num_keypoints_view] </br>
-
-
-
-
 					  </p>
 
+
+
+          </br>
+          <h6 class="hrline"><span>Inter-Annotator Variability</span></h6>
+        </br><br>
+        <ul>
+          <li><span  class="fa fa-square-o"></span> <b><a href=https://data.caltech.edu/records/2121>Download the multi-worker behavior annotation dataset here!</a></b></li>
+        </ul>
+        <br></br><br>
+          <p style="text-align:justify;font-size:16px">
+          Included in this dataset are 10x2 top- and front-view videos of pairs of interacting mice, accompanied by MARS pose estimator output (keypoint locations, bounding boxes, and derived features) and manual frame-by-frame behavior annotations by each of eight trained individuals. All annotations are for attack, mount, and close investigation behaviors.
+          <br><br>
+          Two of the ten videos were annotated a second time by each individual for quantification of intra-annotator variability.
+          </p>
 
 					  </br></br></br>
 
