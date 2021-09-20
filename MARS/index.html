@@ -6,15 +6,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no" />
-           
-        <link rel="shortcut icon" href="header/mars_logo2c.png"/> 
+
+        <link rel="shortcut icon" href="header/mars_logo2c.png"/>
             <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-            <link href="css/font.css" rel="stylesheet" /> 
-            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
+            <link href="css/font.css" rel="stylesheet" />
+            <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
             <link href="css/animsition.min.css" rel="stylesheet"/>
 			<link href="css/simpletextrotator.css" rel="stylesheet"/>
-	        <link href="css/magnific-popup.css" rel="stylesheet"/>         
-            <link href="css/style.css" rel="stylesheet" type="text/css"/>     
+	        <link href="css/magnific-popup.css" rel="stylesheet"/>
+            <link href="css/style.css" rel="stylesheet" type="text/css"/>
       <title>MARS</title>
   </head>
 <body class="animsition">
@@ -24,27 +24,29 @@
 	  </div>
 	  <div class="nav-menu-icon">
 		<a href="#"><i></i></a>
-	  </div> 
+	  </div>
 	  <nav class="menu">
 		<ul>
 			<li class="active"><a href="index.html">home<span class="fa"></span></a></li>
 			<li><a href="https://github.com/neuroethology">GitHub<span class="fa fa-angle-down"></span></a>
 			<ul class="dropmenu">
-				   <li><a href="https://github.com/neuroethology/" class="animsition-link">code</a></li>
-				   <li><a href="https://github.com/neuroethology" class="animsition-link">userguide</a></li>
+				   <li><a href="https://github.com/neuroethology/MARS" class="animsition-link">MARS</a></li>
+				   <li><a href="https://github.com/neuroethology/MARS_Developer" class="animsition-link">MARS_Developer</a></li>
+           <li><a href="https://github.com/neuroethology/bentoMAT" class="animsition-link">Bento</a></li>
 				</ul>
-			</li>	
+			</li>
 			<li><a href="dataset.html">datasets<span class="fa fa-angle-down"></span></a>
 				<ul class="dropmenu">
-				   <li><a href="dataset.html#description" class="animsition-link">description</a></li>
-				   <li><a href="dataset.html#download" class="animsition-link">download</a></li>
+				   <li><a href="https://data.caltech.edu/records/2011" class="animsition-link">Pose annotations</a></li>
+				   <li><a href="https://data.caltech.edu/records/2012" class="animsition-link">Behavior annotations</a></li>
+           <li><a href="https://data.caltech.edu/records/2121" class="animsition-link">Inter-annotator variability</a></li>
 				</ul>
 			</li>
 			<li><a href="team.html">team<span class="fa"></span></a></li>
 		</ul>
-	  </nav>  
+	  </nav>
 	</header>
-		
+
 	<div class="row">
 		<div class="col-md-12">
 			<figure class="figure">
@@ -52,23 +54,20 @@
 			</figure>
 		</div>
 	</div>
-	
-   
+
+
    <div class="container">
 		<div class="row">
 			<div class="col-md-12">
 				<div class="about-item">
-					<p style="text-align:justify;font-size:16px"><em><b>The Mouse Action Recognition System (MARS)</b></em> is a deep learning based system for automated pose estimation and social behavior classification in pairs of interacting mice. It combines a trio of tools:
+					<p style="text-align:justify;font-size:16px"><em><b>The Mouse Action Recognition System (MARS)</b></em> is a deep learning based system for automated pose estimation and social behavior classification. It combines a trio of tools:
 						<br /><br />
-						<ul>
-							<li><strong>MARS</strong> itself is a pipeline for out-of-the-box pose estimation and classification of social behavior in videos of interacting mice, designed for experiments conducted in our <a href="https://www.pnas.org/content/112/38/E5351.short" style="text-decoration:underline">standardized behavior acquisition hardware</a>. It combines a user-friendly graphical interface with powerful computer vision and machine learning algorithms developed and tested on a novel dataset of videos of interacting pairs of mice. MARS comes pre-packaged with a pose estimator trained on manual keypoint annotations of 15,000 video frames of interacting mice, and a set of behavior classifiers trained to detect aggression, mounting, and close investigation behaviors.</li>
-							<li><strong>MARS_Developer</strong> </li>
-							<li><strong>BENTO</strong></li>
+						<ul class="image-list" style="text-align:justify;font-size:16px">
+							<li><span  class="fa fa-square-o"></span> <strong>MARS</strong> itself is a Python-based pipeline for out-of-the-box pose estimation and classification of social behavior in videos of interacting mice, designed for experiments conducted in our <a href="https://www.pnas.org/content/112/38/E5351.short" style="text-decoration:underline">standardized behavior acquisition hardware</a>. It combines a user-friendly graphical interface with powerful computer vision and machine learning algorithms developed and tested on a novel dataset of videos of interacting pairs of mice. MARS comes pre-packaged with a pose estimator trained on manual keypoint annotations of 15,000 video frames of interacting mice, and a set of behavior classifiers trained to detect aggression, mounting, and close investigation behaviors.</li>
+							<li><span  class="fa fa-square-o"></span><strong>MARS_Developer</strong> is a Python-based tool for re-training MARS pose models or behavior classifiers on new datasets. Use it to create your own custom tracking/behavior classification tools, that you can then deploy in the MARS interface.</li>
+							<li><span  class="fa fa-square-o"></span><strong>the Behavior Ensemble and Neural Trajectory Observatory (Bento)</strong> is a Matlab-based tool for managing, visualizing, and analyzing multimodal experimental datasets, including neural recording, video, behavior annotation, and audio data. The BENTO user interface allows you to see neural activity and behavior side-by-side, and supports exploratory data analysis of neural activity using methods like PCA, clustering, and event-triggered-averaging, without requiring any coding ability.</li>
 						</ul>
-						
-						Both datasets are publicly available for benchmarking of other pose and behavior classification systems. </br></br>
-					MARS is an open-source sofware developed by the laboratories of <a href="http://www.vision.caltech.edu/" style="text-decoration:underline">Pietro Perona</a> and <a href="http://davidandersonlab.caltech.edu/" style="text-decoration:underline">David Anderson</a> at Caltech, and maintained by the laboratory of <a href="http://kennedylab.org" style="text-decoration:underline">Ann Kennedy</a> at Northwestern.
-					</br></br>
+            <br><br>
 					<div class="det-tags">
 						  <div class="tags-button">
 							<a href="https://github.com/search?q=machine+learning">machine learning</a>
@@ -78,110 +77,101 @@
 							<a href="https://github.com/search?q=tracking">tracking</a>
 							<a href="https://github.com/search?q=feature+extraction">feature extraction</a>
 							<a href="https://github.com/search?q=action+recognition">action recognition</a>
-							
+
 						  </div>
 					  </div>
-					</p>        		    
+					</p>
 					</br></br>
-				</div>	  
+				</div>
 			</div>
 		</div>
-		
-	
-	
+
+
+
+		<div align=center>
+			<img src="https://github.com/neuroethology/MARS/raw/develop/docs/mars_demo.gif?raw=true" style="max-width: 100%; align:center">
+		</div>
+    <br><br>
+
+
 		<div class="row">
 			<div class="col-md-12">
 				<div class="subtitle">
-					<h3>SAMPLE RESULTS</h3>
-					  
-					<p style="text-align:center;font-size:16px">
-					<b>Detection and pose of each mouse, maintaining the identity across the video frames.</b></br>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/YZgzv4td7Yw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-					</br>
-					
-					<p style="text-align:center;font-size:16px">
-					<b>Mouse tracker and behavior classifier.</b></br>
-					<iframe width="560" height="315" src="https://www.youtube.com/embed/YZgzv4td7Yw?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-					</br>
-					
-					
-					
-					</p>
+					<h3>Code and installation</h3>
+            <ul class="image-list">
+            <li><span  class="fa fa-square-o"></span><a href=https://github.com/neuroethology/MARS#the-mouse-action-recognition-system-mars>MARS requirements and installation instructions</a></li>
+            <li><span  class="fa fa-square-o"></span><a href=https://github.com/neuroethology/MARS_developer#mars_developer>MARS_Developer requirements and installation instructions</a></li>
+            <li><span  class="fa fa-square-o"></span><a href=https://github.com/neuroethology/bentoMAT#behavior-ensemble-and-neural-trajectory-observatory>Bento requirements and installation instructions</a></li>
+          </ul>
 				</div>
 			</div>
 		</div>
-		
-			<div class="row">
+<br><br>
+
+		<div class="row">
 			<div class="col-md-12">
 				<div class="subtitle">
-					<h3>CITATION/ REFERENCE</h3>
+					<h3>The MARS training datasets</h3>
+					  <p style="text-align:justify;font-size:16px">
+					  MARS was trained using <b>15,000 video frames</b> manually annotated for animal pose, and <b>14 hours of video</b> manually annotated for multiple social behaviors of interest. To quantify inter-annotator variability in behavior identification, we also collected manual annotations of social behaviors from <b>eight trained individuals</b> on a collection of 10 videos (over 1.5 hours) of interacting mice.
+            <br><br>
+            We have made all three datasets publicly available under a Creative Commons noncommercial license <a href=https://creativecommons.org/licenses/by-nc/4.0/>CC BY-NC 4.0</a>.
+            <br><br>
+            The datasets are hosted by the Caltech library, and can be downloaded from the <a href="dataset.html" style="text-decoration:underline"><b>Datasets</b></a> page.
+					  </p>
+				</div>
+			</div>
+		</div>
+
+		<div class="row">
+			<div class="col-md-12">
+				<div class="subtitle">
+					<h3>REFERENCE</h3>
 					  <p style="text-align:justify;font-size:16px">
 						<b>If you make use of MARS or the MARS training data, please cite the following reference in any publications:</b></br>
-						The Mouse Action Recognition System (MARS): a software pipeline for automated analysis of social behaviors in mice.</br>
-						Cristina Segalin, Jalani Williams, Tomomi Karigo, May Hui, Moriel Zelikowsky, Jennifer J. Sun, Pietro Perona, David J. Anderson, and Ann Kennedy.</br>
-						 <a href=""> pdf  </a> | <a href= "" > bibtex </a>
+						The Mouse Action Recognition System (MARS): a software pipeline for automated analysis of social behaviors in mice. (2020) Segalin, C., Williams, J., Karigo, T., Hui, M., Zelikowsky, M., Sun, J.J., Perona, P., Anderson, D.J., and Kennedy, A. bioRxiv 2020.07.26.222299<br>
+						 <a href="https://www.biorxiv.org/content/10.1101/2020.07.26.222299v1.full" style="text-decoration:underline">link </a> | <a href=https://www.biorxiv.org/highwire/citation/1448276/bibtext>bibtex</a>
 					  </p>
 				</div>
 			</div>
-		</div>	
-		
-		<!--<div class="row">
-			<div class="col-md-12">
-				<div class="subtitle">
-					<h3>CODE and Dataset</h3>
-					  <p style="text-align:justify;font-size:16px">
-					  Code can be found on the <a href="https://github.com/neuroethology" style="text-decoration:underline"> github </a> repository.  
-					  Find more on the <a href="userguide.html" style="text-decoration:underline"> <b>Userguide</b></a> page.</br> 
-					  <div style="margin-left:30px;margin-top:-20px; font-size:16px">
-					  &mdash; To use MARS use the <i>gui</i> folder. Download the models used for tracking and classify actions: 
-					  <a href="git_data/gui/v1_7.zip" style="text-decoration:underline"> Models</a></br>
-					  &mdash; To develop your own mice tracker, use the <i>develop</i> folder. 
-					  Pretrained model for the mice detector:<a href="git_data/develop/inception_resnet_v2_2016_08_30.ckpt" style="text-decoration:underline">Inception_resent_v2_2016_08_30.ckpt </a></br>
-					  </div>
-					  </p>
-					  <p style="text-align:justify;font-size:16px">
-					  Utility sofware for annotating behaviors on videos, reading .seq files: <a href="utils/CSVR.zip" style="text-decoration:underline">MARS_utils.zip</a></br> </br>
-					  Data used for developing MARS and details can be found on the <a href="dataset.html" style="text-decoration:underline"> <b>Dataset</b> </a> page.
-					  </p>
-				</div>
-			</div>
-		</div>-->
-		
+		</div>
+
 		<div class="row">
 			<div class="col-md-12">
 				<div class="subtitle">
 					<h3>UPDATES</h3>
 					  <p style="text-align:justify;font-size:16px">
 						<ul class="image-list">
+              <li><span  class="fa fa-square-o"></span> 09/20/2021 Site updated to include the new MARS_Developer repo, plus new dataset links. </li>
 							<li><span  class="fa fa-square-o"></span> 06/22/2020 Migration to GitHub in preparation for release. </li>
 						</ul>
 					  </p>
 				</div>
 			</div>
 		</div>
-		
+
 		</br></br>
-		
+
 		<div class="row">
 			<div class="col-md-12">
 				<div class="subtitle">
 					<h3>CONTACT</h3>
 					  <p style="text-align:justify;font-size:16px">
-					  For question about the software and the dataset please contact  <a href="https://annkennedy.github.io/" style="text-decoration:underline">Ann Kennedy</a> [kennedya[at]caltech.edu] or <a href="www.cristinasegalin.com" style="text-decoration:underline"> Cristina Segalin</a> [segalin.cristina[at]gmail.com].</br>
+					  For question about the software and the dataset please contact  <a href="https://kennedylab.org" style="text-decoration:underline">Ann Kennedy</a> [ann.kennedy[at]northwestern.edu] or <a href="https://www.cristinasegalin.com" style="text-decoration:underline"> Cristina Segalin</a> [segalin.cristina[at]gmail.com].</br>
 					  </p>
 				</div>
 			</div>
 		</div>
-		
-		
-    </div>    
-	        
+
+
+    </div>
+
 	<footer>
 		<div class="copyright">
-			Last update July 2020
-		</div>	
+			Last update September 2021
+		</div>
 	</footer>
-    
+
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/isotope.pkgd.min.js"></script>
@@ -191,4 +181,4 @@
 <script src="js/idangerous.swiper.min.js"></script>
 <script src="js/all.js"></script>
 </body>
-</html>	
+</html>

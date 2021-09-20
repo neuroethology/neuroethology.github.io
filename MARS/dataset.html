@@ -6,15 +6,15 @@
     <meta name="apple-mobile-web-app-capable" content="yes" />
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
     <meta name="format-detection" content="telephone=no" />
-           
-        <link rel="shortcut icon" href="header/mars_logo2c.png"/> 
+
+        <link rel="shortcut icon" href="header/mars_logo2c.png"/>
 		<link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-		<link href="css/font.css" rel="stylesheet" /> 
-		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css"> 
+		<link href="css/font.css" rel="stylesheet" />
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 		<link href="css/animsition.min.css" rel="stylesheet"/>
 		<link href="css/simpletextrotator.css" rel="stylesheet"/>
-		<link href="css/magnific-popup.css" rel="stylesheet"/>         
-		<link href="css/style.css" rel="stylesheet" type="text/css"/>     
+		<link href="css/magnific-popup.css" rel="stylesheet"/>
+		<link href="css/style.css" rel="stylesheet" type="text/css"/>
       <title>MARS - DATASET</title>
   </head>
 <body class="animsition">
@@ -24,7 +24,7 @@
 	  </div>
 	  <div class="nav-menu-icon">
 		<a href="#"><i></i></a>
-	  </div> 
+	  </div>
 	  <nav class="menu">
 		<ul>
 			<li class="active"><a href="index.html">home<span class="fa"></span></a></li>
@@ -33,7 +33,7 @@
 				   <li><a href="https://github.com/neuroethology/" class="animsition-link">code</a></li>
 				   <li><a href="https://github.com/neuroethology" class="animsition-link">userguide</a></li>
 				</ul>
-			</li>	
+			</li>
 			<li><a href="dataset.html">datasets<span class="fa fa-angle-down"></span></a>
 				<ul class="dropmenu">
 				   <li><a href="dataset.html#description" class="animsition-link">description</a></li>
@@ -41,11 +41,11 @@
 				</ul>
 			</li>
 		</ul>
-	  </nav>  
+	  </nav>
 	</header>
-		
+
 	<div class="container">
-		<div class="padd-80">	
+		<div class="padd-80">
 			<div class="row">
 				<div class="col-md-12">
 					<figure class="figure">
@@ -55,16 +55,16 @@
 			</div>
 		</div>
 	</div>
-	
-   
-    <div class="main-wrapp start-line time-line"> 
+
+
+    <div class="main-wrapp start-line time-line">
        <div class="container">
        	    <div class="padd-80">
         	  <div class="row">
         		<div class="col-md-12">
        		      <div class="about-item">
         		      <p style="text-align:justify;font-size:16px">
-					  MARS classifiers were trained on a dataset of <em><b>108x2 videos</b></em> (recorded at 30Hz with <em><b>synchronized top and side view</em></b>) of pairs of mice engaging in <em><b>social behavior</em></b>, which we have made publically available. The dataset contains over <em><b>1.5M frames</em></b> (~<em><b>14 hours</em></b>) of behavior video from each view. Each video lasts betwen 2 and 10min and is accompanied by frame-by-frame manual annotation of social behaviors by an expert human annotator.
+					  MARS classifiers were trained on a dataset of <em><b>108x2 videos</b></em> (recorded at 30Hz with <em><b>synchronized top and side view</em></b>) of pairs of mice engaging in <em><b>social behavior</em></b>. The dataset contains over <em><b>1.5M frames</em></b> (~<em><b>14 hours</em></b>) of behavior video from each view. Each video lasts betwen 2 and 10min and is accompanied by frame-by-frame manual annotation of social behaviors by an expert human annotator.
 					  </br></br>
 					  Video and annotations are accompanied by the tracked pose (<em><b>bounding boxes</em></b> around each mouse
 					  and <em><b>keypoint locations</em></b>), and 270 <em><b>time-varying trajectory features</em></b> computed from the poses of the mice.
@@ -74,26 +74,25 @@
 					  <h3><a name="description">Full description</a></h3>
 					  </br></br>
 					  <p style="text-align:justify;font-size:16px">
-					  CRIMSI is composed by 108x2 videos of [2, 10]min each, recorded at 30fps with a resolution of
-					  1024x570 for top view and 1280x500 for side view, 8-bit pixel depth, monochrome. Each scene was
+					  The MARS beh is composed by 108x2 videos, each between two and ten minutes in duration, recorded at 30fps with a resolution of 1024x570 for top view and 1280x500 for side view, 8-bit pixel depth, monochrome. Each scene was
 					  recoded from both top- and side views, using two synchronized cameras.
 					  </br></br>
 					  <p style="text-align:center;font-size:16px">
-					  <a><img src="dataset/behs.png" alt="" style="width:80%;height:auto;" class="center"></a>		
+					  <a><img src="dataset/behs.png" alt="" style="width:80%;height:auto;" class="center"></a>
 					  </p>
-					  </br></br></br>					  
+					  </br></br></br>
 					  <!-- <h6 class="one"><span><a name="descrription">Part Keypoint Annotations</a></span></h6> -->
-					  
+
 
 					  </br></br></br>
 					  <h3><a name="download">Download</a> </h3>
 					  Under construction, check back soon!
-					  
-					  <!--
+
+
 					  <h6 class="hrline"><span>Part Keypoint Annotations</span></h6>
 					  <p style="text-align:justify;font-size:16px">
 					  </br>
-					  Top and front frames used for training the mouse and pose detector, together with part keypoints and bounding boxes annotations 
+					  Top and front frames used for training the mouse and pose detector, together with part keypoints and bounding boxes annotations
 					  used for groundtruth. </br>
 					   &mdash; Top:</br>
 					   &emsp;&emsp;&mdash; <a href="git_data/develop/top/selected_frames_10k_top.zip" style="text-decoration:underline"> selected_frames_10k_top.zip</a>: 10K frames no cable</br>
@@ -103,9 +102,9 @@
 					   &emsp;&emsp;&mdash; <a href="git_data/develop/front/selected_frames_10k_front.zip" style="text-decoration:underline"> selected_frames_10k_front.zip</a>: 10K frames no cable</br>
 					   &emsp;&emsp;&mdash; <a href="git_data/develop/front/selected_frames_miniscope_front.zip" style="text-decoration:underline"> selected_frames_miniscope_front.zip</a>: 5k frames with cable </br>
 					   &emsp;&emsp;&mdash; <a href="git_data/develop/front/annotations_front.zip" style="text-decoration:underline"> annotation_front.zip</a>: Raw part keypoints annotation form AMT. </br>
-					   
-					  			  
-					  
+
+
+
 					  </p>
 					  </br>
 					  <h6 class="hrline"><span>Videos, BBoxes, Pose, Fetures, action annotation</span></h6>
@@ -113,64 +112,64 @@
 					  <p style="text-align:justify;font-size:16px">
 					  Videos for top and front view, behavior annotations, part keypoints annotations, bounding boxes and extracted features can be found in each folder.</br>
 					  Videos are organized as having no cable on top of the resident head or having a fiber optic or miniscope attached to the resident head.</br>
-					  &mdash; Train Videos: 
-					  <a href="data/train_nocable1.zip" style="text-decoration:underline"> train_nocable1.zip</a> 
-					  <a href="data/train_nocable2.zip" style="text-decoration:underline"> train_nocable2.zip</a> 	
-					  <a href="data/train_nocable3.zip" style="text-decoration:underline"> train_nocable3.zip</a> 	
-					  <a href="data/train_nocable4.zip" style="text-decoration:underline"> train_nocable4.zip</a> </br> 
+					  &mdash; Train Videos:
+					  <a href="data/train_nocable1.zip" style="text-decoration:underline"> train_nocable1.zip</a>
+					  <a href="data/train_nocable2.zip" style="text-decoration:underline"> train_nocable2.zip</a>
+					  <a href="data/train_nocable3.zip" style="text-decoration:underline"> train_nocable3.zip</a>
+					  <a href="data/train_nocable4.zip" style="text-decoration:underline"> train_nocable4.zip</a> </br>
 					  &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
-					  <a href="data/train_cable1.zip" style="text-decoration:underline"> train_cable1.zip</a> 	
-					  <a href="data/train_cable2.zip" style="text-decoration:underline"> train_cable2.zip</a> 
-					  <a href="data/train_cable3.zip" style="text-decoration:underline"> train_cable3.zip</a> </br>	
-					  &mdash; Test Videos: 
-					  <a href="data/test_nocable.zip" style="text-decoration:underline"> test_nocable.zip</a> 
-					  <a href="data/test_cable.zip" style="text-decoration:underline"> test_cable.zip</a></br> 						  
-					  &mdash; Validation Videos: 
-					  <a href="data/validation.zip" style="text-decoration:underline"> validation.zip</a> 
+					  <a href="data/train_cable1.zip" style="text-decoration:underline"> train_cable1.zip</a>
+					  <a href="data/train_cable2.zip" style="text-decoration:underline"> train_cable2.zip</a>
+					  <a href="data/train_cable3.zip" style="text-decoration:underline"> train_cable3.zip</a> </br>
+					  &mdash; Test Videos:
+					  <a href="data/test_nocable.zip" style="text-decoration:underline"> test_nocable.zip</a>
+					  <a href="data/test_cable.zip" style="text-decoration:underline"> test_cable.zip</a></br>
+					  &mdash; Validation Videos:
+					  <a href="data/validation.zip" style="text-decoration:underline"> validation.zip</a>
 					  </p>
 					</br>
-					  <p style="text-align:justify;font-size:16px">	
+					  <p style="text-align:justify;font-size:16px">
 					  Each video folder contains top and front videos in .seq and .avi format, behavior annotations and an output_v# folder.
 					  Some videos contain two versions of behavior annotations: one where only aggression, investigation and mounting are annotated, where
 					  the other provides in total 9 behaviors. </br>
 					  The output_v# folder is the outcome from MARS and # stands for the MARS version. It containes bounding boxes and pose extracted from both view, and extracted features only from top view,
 					  top view with front view pixel change features (pcf) and front view only. </br></br>
-					  
+
 					  Pose files (.json) contains:</br>
 					  &mdash; bounding boxes [2 x num_frames x 4] </br>
 					  &mdash; pose [2 x num_frames x num_keypoints_view] </br>
 
-					 
-						
-					 -->
-					  </p>
-					  
-					  
-					  </br></br></br>
-					  
-					  
 
-					  
-					  
-					  
+
+
+					  </p>
+
+
+					  </br></br></br>
+
+
+
+
+
+
                   </div>
         		</div>
-        	  </div>	
+        	  </div>
            </div>
- 
-       
-            
-            
-            
-       </div> 
-    </div>    
-	        
+
+
+
+
+
+       </div>
+    </div>
+
 	<footer>
 		<div class="copyright">
-			
-		</div>	
+
+		</div>
 	</footer>
-    
+
 <script src="js/jquery-2.1.4.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
 <script src="js/isotope.pkgd.min.js"></script>
@@ -180,4 +179,4 @@
 <script src="js/idangerous.swiper.min.js"></script>
 <script src="js/all.js"></script>
 </body>
-</html>	
+</html>
