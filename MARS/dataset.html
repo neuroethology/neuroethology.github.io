@@ -67,16 +67,6 @@
         	  <div class="row">
         		<div class="col-md-12">
        		      <div class="about-item">
-        		      <p style="text-align:justify;font-size:16px">
-					  MARS classifiers were trained on a dataset of <em><b>108x2 videos</b></em> (recorded at 30Hz with <em><b>synchronized top and side view</em></b>) of pairs of mice engaging in <em><b>social behavior</em></b>. The dataset contains over <em><b>1.5M frames</em></b> (~<em><b>14 hours</em></b>) of behavior video from each view. Each video lasts betwen 2 and 10min and is accompanied by frame-by-frame manual annotation of social behaviors by an expert human annotator.
-					  </br></br>
-					  Video and annotations are accompanied by the tracked pose (<em><b>bounding boxes</em></b> around each mouse
-					  and <em><b>keypoint locations</em></b>), and 270 <em><b>time-varying trajectory features</em></b> computed from the poses of the mice.
-					  Further we share the selected <em><b>15Kx2 frames and AMT annotations (~5M clicks)</em></b> used to train the tracker.
-					  </p>
-
-					  </br></br></br>
-
 					  <h6 class="hrline"><span>Pose Annotations</span></h6>
             <br><br>
             <ul>
@@ -84,7 +74,7 @@
             </ul>
             <br></br><br>
 					  <p style="text-align:justify;font-size:16px">
-            Included in this dataset are 15,000 pairs of top- and front-view frames from videos of pairs of interacting mice. Each frame has been manually annotated by five individuals for a total of nine (top-view) or thirteen (front-view) keypoints: the nose, ears, base of neck, hips, base of tail, middle of tail, and end of tail, and additionally the four paws (front-view only.)
+            Included in this dataset are 15,000 pairs of top- and front-view frames from videos of pairs of interacting mice. Each frame has been manually annotated by five individuals for a total of nine (top-view) or thirteen (front-view) keypoints: the nose, ears, base of neck, hips, base of tail, middle of tail, and end of tail, and additionally the four paws (front-view only), for a total of <b>3,300,000 labels</b> (15,000 x (9 + 13 keypoints) x 2 views x 5 workers.)
             <br><br>
             Frames are sampled from 64 videos from several years of experimental projects. 5,000 of the extracted frames include resident mice with a head-attached fiberoptic cable or head-mounted microendoscope with cable, which introduces an additional source of occlusion.
             <br><br>
